@@ -7,7 +7,7 @@ A bare bones Node.js HTTP get API that returns a promise. Automatically parses J
 ```
 const get = require('./get');
 
-get('// http://api.zippopotam.us/us/90210')
+get('https://api.example.com')
 .then(response => console.log(response))
 .catch(error => console.log(error));
 ```
