@@ -4,12 +4,12 @@ A bare bones Node.js HTTP get API that returns a promise. Automatically parses J
 
 ## Usage
 
-```
-const get = require('./get');
+```js
+const get = require("./get");
 
-get('https://api.example.com')
-.then(response => console.log(response))
-.catch(error => console.log(error));
+get("https://api.example.com")
+  .then(response => console.log(response))
+  .catch(error => console.log(error));
 ```
 
 ## Contributors
