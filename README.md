@@ -4,10 +4,10 @@ A bare bones Node.js HTTP get library that returns a promise. Automatically pars
 
 ## Usage
 
-Download `get.js` or clone the entire repo. Then require the file.
+Download `get.js` or clone the entire repo. Then import the file. **Note:** `get.js` only supports ES module syntax.
 
 ```js
-const get = require("./get");
+import get from "./get.js";
 
 get("https://api.example.com")
   .then((response) => console.log(response))

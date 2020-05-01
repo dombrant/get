@@ -1,7 +1,7 @@
 // Code from https://www.tomas-dvorak.cz/posts/nodejs-request-without-dependencies/
 
-const http = require("http");
-const https = require("https");
+import http from "http";
+import https from "https";
 
 const get = (url) =>
   new Promise((resolve, reject) => {
@@ -14,4 +14,4 @@ const get = (url) =>
     request.on("error", (error) => reject(`Error: ${error}`));
   });
 
-module.exports = get;
+export default get;

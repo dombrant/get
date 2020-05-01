@@ -2,6 +2,7 @@
   "name": "get",
   "version": "1.0.0",
   "description": "A bare bones Node.js HTTP get API that returns a promise",
+  "type": "module",
   "main": "get.js",
   "scripts": {
     "test": "node test.js"
