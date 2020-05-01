@@ -1,15 +1,17 @@
 # Get
 
-A bare bones Node.js HTTP get API that returns a promise. Automatically parses JSON. Inspired from [Tomas Dvorak's article](https://www.tomas-dvorak.cz/posts/nodejs-request-without-dependencies/).
+A bare bones Node.js HTTP get library that returns a promise. Automatically parses JSON. Inspired from [Tomas Dvorak's article](https://www.tomas-dvorak.cz/posts/nodejs-request-without-dependencies/).
 
 ## Usage
+
+Download `get.js` or clone the entire repo. Then require the file.
 
 ```js
 const get = require("./get");
 
 get("https://api.example.com")
-  .then(response => console.log(response))
-  .catch(error => console.log(error));
+  .then((response) => console.log(response))
+  .catch((error) => console.log(error));
 ```
 
 ## Contributors
