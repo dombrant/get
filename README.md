@@ -4,10 +4,15 @@ A bare bones Node.js HTTP get library that returns a promise. Automatically pars
 
 ## Usage
 
-Download `get.js` or clone the entire repo. Then import the file. **Note:** `get.js` only supports ES module syntax.
+Install it via npm:
+```bash
+$ npm install https://github.com/dombrant/get
+```
+
+Then import it (**Note:** `get.js` only supports ES module syntax):
 
 ```js
-import get from "./get.js";
+import get from "get";
 
 get("https://api.example.com")
   .then((response) => console.log(response))
