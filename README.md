@@ -5,6 +5,7 @@ A bare bones Node.js HTTP get library that returns a promise. Automatically pars
 ## Usage
 
 Install it via npm:
+
 ```bash
 $ npm install https://github.com/dombrant/get
 ```
@@ -23,7 +24,7 @@ get("https://api.example.com")
 
 **Dominic Brant**.
 
-[Follow me on Twitter](https://twitter.com/dombrant), and feel free to let me know if you have any thoughts/suggestions/problems.
+If you have any thoughts/suggestions/problems, feel free to open an [issue](https://github.com/dombrant/get/issues).
 
 ## License
 
